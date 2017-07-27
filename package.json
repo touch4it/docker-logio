@@ -1,19 +1,19 @@
 {
   "name": "docker-logio",
-  "version": "0.3.0",
-  "description": "Forward all logs from all docker containers to Log.Io server",
+  "version": "0.4.0",
+  "description": "Forward all logs from all docker containers to Log.io server",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gerchardon/docker-logio.git"
+    "url": "https://github.com/touch4it/docker-logio.git"
   },
   "main": "index.js",
   "author": "Gerome Chardon <gerome.chardon@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "commander": "^2.8.1",
-    "docker-allcontainers": "^0.4.0",
-    "docker-loghose": "^0.7.0",
-    "through2": "^2.0.0"
+    "commander": "^2.11.0",
+    "docker-allcontainers": "^0.7.0",
+    "docker-loghose": "^0.9.0",
+    "through2": "^2.0.3"
   },
   "bin": {
     "docker-logio": "./index.js"
